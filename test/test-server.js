@@ -8,7 +8,7 @@ const {app, runServer, closeServer} = require('../server');
 // http://chaijs.com/api/bdd/
 const expect = chai.expect;
 
-// This let's us make HTTP requests
+// This lets us make HTTP requests
 // in our tests.
 // see: https://github.com/chaijs/chai-http
 chai.use(chaiHttp);
@@ -61,6 +61,7 @@ describe('Shopping List', function() {
         });
       });
   });
+
 
   // test strategy:
   //  1. make a POST request with data for a new item
