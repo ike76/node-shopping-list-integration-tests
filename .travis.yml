@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: S7fSmsdw5V6wmB390mnshjCoonrf9ygTHZp8q1+qgoyYkLg8XlIjzODAMsg1JIJURtUmrReF4Ekk+mIc2l11kZO2cs2kjR2MtCLH47+LhU8NFDVAiYabPYhy464LLHhpBJPVA+35f11wDzKS4/8yEuPvxBVUg2/rdYoXMo6/TItxfZTKDOwt/YQEq3/6thaeLJQ9J77dbZfQcNaVzJJCt9BL2HuvegEVoA4N0Ev0U1JdjEh91G7nVz9SbIrvAdI0HhxbCi8AtD30y1xIpoYgYI4JIvgImTHqUyfjUuMJ+qcPsWj8EDd4sxeWoLvlkk3hl9p1W746dGkYryg7Yf/3GHIzJnruBl/liJ59xnQzvWcDpG31O5xdfXUVsoQrZ+3dRJvyPCwcwgUJKuraJe+OW/mhB4UHdFqKPlnrauFNzYYDR8Ggxma2zd4T5EESJS8sqD67uuMOXA0Va+AjxxFfLOTysYgJmiVlCUwnrzn688jkpbda93Kc0FlXRRtBZMaz2v96TaDtXJpcZt5/nIwxjrpaan5LrqR8MeA0R20uvqSrmWxaTs7ZG+vEfnVEyoIRVnrUqKhLX2vxmJ1IaaUWsQQZf4jshkYg9VmeCciP8cB4gmS9EkdWPQvVxXwwyfd6yptyEd2c0gOB+9ppMGNSPzCtFF8KJ+VnSClChOVeYM0=
+  app: pacific-meadow-72556
+  on:
+    repo: ike76/node-shopping-list-integration-tests
